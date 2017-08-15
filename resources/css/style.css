@@ -1,0 +1,191 @@
+body {
+  margin: 0;
+  width: 100%;
+  display: block;
+}
+
+/* ---Fixed Header Begins--- */
+header {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 10px 0px;
+  border-bottom: solid black 1px;
+  width: 100%;
+  height: 80px;
+  background-color: #fff;
+  z-index: 5;
+}
+
+.logo {
+  display: flex;
+  padding-left: 30px;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.logo span {
+  color: AquaMarine;
+  padding: 10px;
+}
+
+header nav {
+  display: block;
+  flex-wrap: wrap;
+  padding-right: 40px;
+  justify-content: flex-end;
+}
+
+nav span a {
+  display: inline;
+  padding: 20px 10px;
+  color: black;
+}
+
+/* ---Fixed Header Ends--- */
+
+/* ---Content Begins--- */
+
+.content {
+    display: flex;
+    width: 1232px;
+    margin: 0 auto 50px auto;
+    padding-top: 115px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+}
+
+.column .large {
+  width: 630px;
+}
+
+.column .horizontal {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  width: 630px;
+}
+
+.column .medium {
+  width: 300px;
+}
+
+.column .small {
+  width: 240px;
+}
+
+.image {
+  display: flex;
+  position: relative;
+  padding-bottom: 10px;
+}
+
+#main {
+  font-size: 40px;
+  text-align: left;
+}
+
+h1 {
+  font-size: 30px;
+  color: black;
+}
+
+.headlinetext,
+#main {
+  padding: 10px;
+}
+
+.headlinetext {
+  display: inline-flex;
+  position: absolute;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+}
+
+.story {
+ font-family: Georgia;
+ font-size: 17px;
+ color: black;
+}
+
+.horizontal .story,
+.horizontal .image {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 320px;
+}
+
+.tier1,
+.tier2 {
+  max-width: 630px;
+}
+
+h2 {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.newsbites {
+  display: flex;
+  flex-direction: column;
+}
+
+.nb {
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+  margin: 0;
+  border-bottom: solid black 1px;
+  padding: 10px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 300px;
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+}
+
+footer .foot {
+  display: inline-block;
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  padding-right: 25px;
+  border-right: solid white 2px;
+}
+
+footer nav {
+  display: inline-block;
+  flex-wrap: wrap;
+  padding-left: 10px;
+}
+
+footer .info {
+  padding: 20px;
+}
+
+footer nav a {
+  display: inline;
+  margin: auto 10px
+}
